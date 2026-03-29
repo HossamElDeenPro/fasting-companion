@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Fasting Companion</title>
+  <style>
+    :root {
+      --bg:      #0f1a1a;
+      --surface: #1f2e2e;
+      --border:  #2e4040;
+      --gold:    #c9a84c;
+      --text:    #e8dfc8;
+      --muted:   #7a9898;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 16px;
+      line-height: 1.8;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--gold);
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p { margin-bottom: 14px; color: var(--text); }
+
+    ul {
+      margin: 0 0 14px 22px;
+      color: var(--text);
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .highlight p { margin: 0; }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .lang-toggle {
+      float: right;
+      margin-top: 4px;
+    }
+
+    .lang-toggle a {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    /* Arabic section */
+    .ar {
+      direction: rtl;
+      font-family: 'Amiri', 'Arial Unicode MS', serif;
+      display: none;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo">☽</div>
+  <div class="lang-toggle">
+    <a href="privacy-ar.html">العربية</a>
+  </div>
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">Fasting Companion Chrome Extension &nbsp;·&nbsp; Last updated: 2025</p>
+
+  <div class="highlight">
+    <p><strong>Summary:</strong> Fasting Companion collects no personal data. Everything stays on your device. No servers, no tracking, no analytics.</p>
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>Fasting Companion is a free Chrome Extension designed to help Muslims track recommended fasting days, Hijri dates, and Qada (makeup fasts). It is developed as an independent open utility with no commercial affiliations.</p>
+
+  <h2>2. Data We Collect</h2>
+  <p>We collect <strong>no personal data whatsoever</strong>. The extension does not collect, transmit, or store:</p>
+  <ul>
+    <li>Your name, email address, or any identifier</li>
+    <li>Location or IP address</li>
+    <li>Browsing history or activity</li>
+    <li>Device information</li>
+    <li>Usage statistics or analytics</li>
+  </ul>
+
+  <h2>3. Data Stored Locally</h2>
+  <p>The extension stores the following data <strong>locally on your device only</strong>, using the Chrome <code>storage.local</code> API. This data never leaves your device:</p>
+  <ul>
+    <li><strong>Fasting log</strong> — dates you marked as fasted</li>
+    <li><strong>Qada tracking</strong> — missed and completed makeup fasts (Women's Mode)</li>
+    <li><strong>Settings</strong> — language preference, gender, Hijri adjustment</li>
+    <li><strong>Hijri date cache</strong> — temporary cache from the Aladhan API to reduce network requests</li>
+  </ul>
+  <p>You can clear all locally stored data at any time by removing the extension or using Chrome's extension storage clear functionality.</p>
+
+  <h2>4. Third-Party API</h2>
+  <p>The extension makes requests to the <a href="https://aladhan.com" target="_blank" rel="noopener">Aladhan API</a> (<code>api.aladhan.com</code>) to convert Gregorian dates to Hijri dates. This request contains only the date being converted — no user-identifying information is sent.</p>
+  <p>Please review <a href="https://aladhan.com/privacy" target="_blank" rel="noopener">Aladhan's Privacy Policy</a> for information on how they handle API requests.</p>
+
+  <h2>5. Permissions</h2>
+  <p>The extension requests only the minimum permissions necessary:</p>
+  <ul>
+    <li><strong>storage</strong> — to save your fasting log and settings locally</li>
+    <li><strong>alarms</strong> — to schedule daily fasting reminders</li>
+    <li><strong>notifications</strong> — to display reminder notifications</li>
+    <li><strong>https://api.aladhan.com/*</strong> — to fetch Hijri date data</li>
+  </ul>
+  <p>No permissions are requested beyond this list.</p>
+
+  <h2>6. No Advertising or Monetization</h2>
+  <p>The extension contains no advertisements, sponsored content, or any form of monetization. It is provided free of charge as a community utility.</p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>This extension does not knowingly collect information from children or any users. As no data is collected at all, there are no special concerns regarding minors.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>If this privacy policy is updated, the revised version will be made available at this same URL. Continued use of the extension after any changes constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have questions about this privacy policy, you may open an issue on the project's repository or contact the developer through the Chrome Web Store listing page.</p>
+
+  <div class="footer">
+    <p>Fasting Companion &nbsp;·&nbsp; No data collected &nbsp;·&nbsp; Open source &nbsp;·&nbsp; 2025</p>
+    <p style="margin-top:6px; font-size:12px;">
+      بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
