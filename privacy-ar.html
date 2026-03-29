@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية – رفيق الصيام</title>
+  <style>
+    :root {
+      --bg:      #0f1a1a;
+      --surface: #1f2e2e;
+      --border:  #2e4040;
+      --gold:    #c9a84c;
+      --text:    #e8dfc8;
+      --muted:   #7a9898;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Amiri', 'Arial Unicode MS', 'Segoe UI', sans-serif;
+      font-size: 17px;
+      line-height: 2;
+      padding: 40px 20px 80px;
+      direction: rtl;
+    }
+
+    .container { max-width: 720px; margin: 0 auto; }
+
+    .logo { font-size: 36px; margin-bottom: 8px; }
+
+    h1 {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--gold);
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p { margin-bottom: 14px; }
+
+    ul { margin: 0 22px 14px 0; }
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-right: 3px solid var(--gold);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .highlight p { margin: 0; }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .lang-toggle {
+      float: left;
+      margin-top: 4px;
+    }
+
+    .lang-toggle a {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: sans-serif;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    code {
+      font-family: monospace;
+      font-size: 13px;
+      background: var(--surface);
+      padding: 1px 5px;
+      border-radius: 3px;
+      direction: ltr;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo">☽</div>
+  <div class="lang-toggle"><a href="privacy.html">English</a></div>
+  <h1>سياسة الخصوصية</h1>
+  <p class="subtitle">إضافة رفيق الصيام لمتصفح Chrome &nbsp;·&nbsp; آخر تحديث: 2025</p>
+
+  <div class="highlight">
+    <p><strong>ملخص:</strong> رفيق الصيام لا يجمع أي بيانات شخصية. كل شيء يبقى على جهازك. لا خوادم، لا تتبع، لا إحصاءات.</p>
+  </div>
+
+  <h2>١. من نحن</h2>
+  <p>رفيق الصيام إضافة مجانية لمتصفح Chrome، صُممت لمساعدة المسلمين على تتبع أيام الصيام المستحبة، والتاريخ الهجري، وقضاء رمضان. تُقدَّم كأداة مجتمعية مستقلة دون أي انتماء تجاري.</p>
+
+  <h2>٢. البيانات التي نجمعها</h2>
+  <p>نحن <strong>لا نجمع أي بيانات شخصية على الإطلاق</strong>. لا تقوم الإضافة بجمع أو إرسال أو تخزين:</p>
+  <ul>
+    <li>اسمك أو بريدك الإلكتروني أو أي معرّف شخصي</li>
+    <li>موقعك الجغرافي أو عنوان IP</li>
+    <li>سجل التصفح أو النشاط على الإنترنت</li>
+    <li>معلومات الجهاز</li>
+    <li>إحصاءات الاستخدام أو أي تحليلات</li>
+  </ul>
+
+  <h2>٣. البيانات المخزنة محلياً</h2>
+  <p>تخزّن الإضافة البيانات التالية <strong>على جهازك فقط</strong> باستخدام واجهة <code>storage.local</code> في Chrome. هذه البيانات لا تغادر جهازك أبداً:</p>
+  <ul>
+    <li><strong>سجل الصيام</strong> — الأيام التي سجّلتها كأيام صيام</li>
+    <li><strong>تتبع القضاء</strong> — أيام القضاء الفائتة والمكتملة (وضع المرأة)</li>
+    <li><strong>الإعدادات</strong> — اللغة، الجنس، تعديل التاريخ الهجري</li>
+    <li><strong>كاش التاريخ الهجري</strong> — ذاكرة مؤقتة من API أَلَاذان لتقليل طلبات الشبكة</li>
+  </ul>
+  <p>يمكنك حذف جميع البيانات المحلية في أي وقت عبر إزالة الإضافة أو مسح بيانات تخزينها من إعدادات Chrome.</p>
+
+  <h2>٤. الخدمات الخارجية</h2>
+  <p>تُرسل الإضافة طلبات إلى <a href="https://aladhan.com" target="_blank" rel="noopener">واجهة برمجة أَلَاذان</a> (<code>api.aladhan.com</code>) لتحويل التاريخ الميلادي إلى هجري. يحتوي هذا الطلب على التاريخ المراد تحويله فقط — لا تُرسل أي معلومات تعرّف بالمستخدم.</p>
+  <p>يرجى مراجعة <a href="https://aladhan.com/privacy" target="_blank" rel="noopener">سياسة خصوصية أَلَاذان</a> لمعرفة كيفية تعاملهم مع طلبات API.</p>
+
+  <h2>٥. الصلاحيات المطلوبة</h2>
+  <p>تطلب الإضافة الحد الأدنى من الصلاحيات الضرورية فقط:</p>
+  <ul>
+    <li><strong>storage</strong> — لحفظ سجل الصيام والإعدادات محلياً</li>
+    <li><strong>alarms</strong> — لجدولة تذكيرات الصيام اليومية</li>
+    <li><strong>notifications</strong> — لعرض إشعارات التذكير</li>
+    <li><strong>https://api.aladhan.com/*</strong> — لجلب بيانات التاريخ الهجري</li>
+  </ul>
+  <p>لا تُطلب أي صلاحيات خارج هذه القائمة.</p>
+
+  <h2>٦. لا إعلانات ولا تحقيق ربح</h2>
+  <p>لا تحتوي الإضافة على إعلانات أو محتوى مموّل أو أي شكل من أشكال التحقيق الربحي. تُقدَّم مجاناً كأداة خدمة للمجتمع المسلم.</p>
+
+  <h2>٧. خصوصية الأطفال</h2>
+  <p>لا تجمع الإضافة معلومات من الأطفال أو أي مستخدمين. وبما أنه لا تُجمع أي بيانات أصلاً، فلا توجد مخاوف خاصة تتعلق بالقاصرين.</p>
+
+  <h2>٨. التعديلات على هذه السياسة</h2>
+  <p>في حال تحديث سياسة الخصوصية، ستُتاح النسخة المعدّلة على نفس هذا الرابط. استمرار استخدام الإضافة بعد أي تغييرات يُعدّ قبولاً للسياسة المحدّثة.</p>
+
+  <h2>٩. التواصل</h2>
+  <p>إن كان لديك أي استفسار حول سياسة الخصوصية، يمكنك فتح issue في مستودع المشروع أو التواصل مع المطوّر عبر صفحة الإضافة في Chrome Web Store.</p>
+
+  <div class="footer">
+    <p>رفيق الصيام &nbsp;·&nbsp; لا بيانات تُجمع &nbsp;·&nbsp; مفتوح المصدر &nbsp;·&nbsp; 2025</p>
+    <p style="margin-top:8px; font-size:16px;">
+      تَقَبَّلَ اللَّهُ صِيَامَكُمْ
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
